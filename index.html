@@ -1226,7 +1226,8 @@ function renderResult(){
   $("toiAct").textContent = TOI[A].act;
 
   lastResultText = "わたしの宇宙技芸は「" + TA.name + " " + pA + "% × " +
-    TB.name + " " + pB + "%」でした。 #宇宙技芸診断";
+    TB.name + " " + pB + "%」でした。\n対岸の" + TYPES[opp].name +
+    "からの問い——「" + TOI[A].q + "」\n#宇宙技芸診断";
   $("copied").textContent = "";
 }
 
